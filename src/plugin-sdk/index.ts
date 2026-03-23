@@ -79,3 +79,6 @@ export { emptyPluginConfigSchema } from "../plugins/config-schema.js";
 export { registerContextEngine } from "../context-engine/registry.js";
 export { delegateCompactionToRuntime } from "../context-engine/delegate.js";
 export { onDiagnosticEvent } from "../infra/diagnostic-events.js";
+
+// Re-export all compat surface for external plugins like openclaw-weixin
+export * from "./compat.js";

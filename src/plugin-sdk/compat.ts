@@ -50,3 +50,7 @@ export {
   resolveBlueBubblesGroupToolPolicy,
 } from "../../extensions/bluebubbles/runtime-api.js";
 export { collectBlueBubblesStatusIssues } from "../channels/plugins/status-issues/bluebubbles.js";
+
+// Fix for openclaw-weixin plugin compatibility
+export { resolvePreferredOpenClawTmpDir } from "../infra/tmp-openclaw-dir.js";
+export { normalizeAccountId } from "../routing/session-key.js";
