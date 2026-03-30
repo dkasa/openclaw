@@ -54,3 +54,9 @@ export { collectBlueBubblesStatusIssues } from "../channels/plugins/status-issue
 // Fix for openclaw-weixin plugin compatibility
 export { resolvePreferredOpenClawTmpDir } from "../infra/tmp-openclaw-dir.js";
 export { normalizeAccountId } from "../routing/session-key.js";
+export {
+  resolveSenderCommandAuthorizationWithRuntime,
+  resolveDirectDmAuthorizationOutcome,
+} from "./command-auth.js";
+export { createTypingCallbacks } from "../channels/typing.js";
+export { stripMarkdown } from "./text-runtime.js";
